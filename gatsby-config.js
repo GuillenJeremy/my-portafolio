@@ -3,5 +3,17 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My developer-portafolio",
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-less"],
+  plugins: [
+    "gatsby-plugin-sass", 
+    "gatsby-plugin-less",
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          `Raleway\:300,400,500,700`
+        ],
+        display: 'swap'
+      }
+    }
+  ],
 };
