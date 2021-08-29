@@ -1,5 +1,15 @@
-$color-white: #fff;
-$image-background: #1E1E1F;
-$color-text: #fff;
-$header-backgorund: #1E1F20;
-$header-backgorund-dark: #141415;
+$color-white-100: #fff;
+$color-white-200: #EBEBEB;
+
+$color-black-600: #000;
+$color-black-500: #141415;
+$color-black-400: #1E1F20;
+$color-black-300: #1E1E1F;
+
+$image-background: $color-black-300;
+$color-text: $color-white-100;
+$header-backgorund: $color-black-400;
+$header-backgorund-dark: $color-black-500;
+
+$title-border-color: $color-black-300;
+$skills-background: $color-white-200;

@@ -1,7 +1,8 @@
 import * as React from "react";
 import Layout from '../components/layout/layout';
-import { Header } from "../components/header/header";
-import { Navbar } from '../components/navbar/navbar';
+import { Header } from "../modules/header/header";
+import { Navbar } from '../modules/navbar/navbar';
+import { MySkills } from '../modules/my-skills/skills';
 
 // markup
 const IndexPage = () => {
@@ -11,6 +12,7 @@ const IndexPage = () => {
         <title>Jeremy Guillen | Front end developer</title>
         <Navbar />
         <Header />
+        <MySkills />
       </main>
     </Layout>
   )

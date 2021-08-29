@@ -1,0 +1,36 @@
+@import '../../styles/variables.scss';
+
+.skills {
+    padding-top: 6rem;
+    background-color: $color-white-200;
+
+    &__title {
+        text-align: center;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3rem;
+        &::before, &::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid $title-border-color;
+        }
+
+        &:not(:empty)::before {
+            margin-right: 1rem;
+        }
+
+        &:not(:empty)::after {
+            margin-left: 1rem;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
